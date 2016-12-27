@@ -11,6 +11,7 @@
  
  The second argument accepts optional subprotocols.  It can be a string or an array of strings.  Each string should represent a subprotocol name and server accepts only one of passed subprotocols in the array.  Accepted protocol can be determined bu accessing protocol property of WebSocket object.
  
- [<img src="https://drive.google.com/open?id=0BzhjPLNxBTWBQUNsOG5QMVl6RFE" align="right" width="300">](https://login.salesforce.com/)
+    //Object allows you to make client connections to a WebSocket server.
+    var WebSocketClient = require('websocket').client
 
  
