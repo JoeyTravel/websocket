@@ -34,8 +34,12 @@
  
  
  
-##
- Communicating with the Server
+## Communicating with the Server
+As soon as we have a connection to the server (when the `open` event is fired) we can start sending data to the server using the `send('Your message)` method on the connection object.  It used to support only strings, but in the latest spec it now can send binary messages too.  To send binary data, you can use either `Blob` or `ArrayBuffer` object.
 
      // Sending String
-      connection.send
+      connection.send('Your message');
+      
+      // Sending canvas ImageData as ArrayBuffer
+      var img = canvas_context.getImageData(0, 0, 400, 320);
+      var binary = new 
