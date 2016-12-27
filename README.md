@@ -30,3 +30,8 @@
       connection.onmessage = function (e) {
          console.log('Server: ' + e.data);
       };
+
+ 
+ 
+ Communicating with the Server
+#
