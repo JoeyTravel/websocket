@@ -62,4 +62,15 @@ The handshake from the client looks as follows:
       ^n:ds[4U
       
  
+ The handshake from the server looks as follows:
  
+      HTTP/1.1 101 WebSocket Protocol Handshake
+      Upgrade: WebSocket
+      Connection: Upgrade
+      Sec-WebSocket-Origin: http://example.com
+      Sec-WebSocket-Location: ws://example.com/demo
+      Sec-WebSocket-Protocol: sample
+      
+      8jKS'y:G*Co,Wxa-
+      
+
