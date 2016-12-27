@@ -33,5 +33,9 @@
 
  
  
+ 
+##
  Communicating with the Server
-#
+
+     // Sending String
+      connection.send
