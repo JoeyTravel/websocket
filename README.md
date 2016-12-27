@@ -17,3 +17,6 @@
  # 
  
       // When the connection is open, send some data to the server
+      connection.onopen = function () {
+        connetion.send('Ping'); // Send the message 'Ping' to the server
+      };
