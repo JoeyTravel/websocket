@@ -9,3 +9,5 @@
  
  Attaching event handlers immediately to the connection allows you to know when the connection is opened, received incoming messages, or there is an error.
  
+ The second argument accepts optional subprotocols.
+ 
