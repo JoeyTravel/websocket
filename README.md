@@ -14,4 +14,6 @@
     `//Object allows you to make client connections to a WebSocket server.`
     ``var WebSocketClient = require('websocket').client``
 
+ # 
  
+      // When the connection is open, send some data to the server
