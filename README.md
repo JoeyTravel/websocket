@@ -43,3 +43,23 @@ As soon as we have a connection to the server (when the `open` event is fired) w
       // Sending canvas ImageData as ArrayBuffer
       var img = canvas_context.getImageData(0, 0, 400, 320);
       var binary = new 
+
+
+## The Protocol Overview
+The protocol has two parts: a handshake, and then the data transfer.
+
+The handshake from the client looks as follows:
+     
+      GET /demo HTTP/1.1
+      Host: example.com
+      Connection: Upgrade
+      Sec-WebSocket-Key2: 12998 5 Y3 1   .P00
+      Sec-WebSocket-Protocol: sample
+      Upgrade: WebSocket
+      Sec-WebSocket-Key1: 4 @1  46546xW%01 1 5
+      Origin: http://example.com
+      
+      ^n:ds[4U
+      
+ 
+ 
