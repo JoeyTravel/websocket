@@ -2,6 +2,7 @@
 
  * [Bringing Sockets to the Web](https://www.html5rocks.com/en/tutorials/websockets/basics/)
  * [The WebSocket protocol](https://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-03#page-13)
+ * [Writing WebSocket Client Applications](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
 
  * ws: - URL schema for WebSocket connections
  * wss: secure WebSocket connections
