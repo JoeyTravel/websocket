@@ -1,4 +1,4 @@
-# websockets
+# websocket
 
  * [Bringing Sockets to the Web](https://www.html5rocks.com/en/tutorials/websockets/basics/)
  * [The WebSocket protocol](https://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-03#page-13)
