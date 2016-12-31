@@ -1,4 +1,4 @@
-# websocket
+# Websocket
 
 ## Quick Links
 #
